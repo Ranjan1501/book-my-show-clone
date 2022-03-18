@@ -56,10 +56,17 @@ This entire journey of making the project was awesome. We have learned lots of t
 - ## <span style="color:blue"> Home Page </span>
 
 
-<img width="450" alt="Home-1" src="https://user-images.githubusercontent.com/91541289/153575805-b1df95f7-839f-4592-b2fd-5aa33e3abf15.png">
+
+<img width="450" alt="Screenshot 2022-03-19 012821" src="https://user-images.githubusercontent.com/91541289/159075655-f2cb6510-ef55-49d5-8990-350bbc8c6d73.png">
+
 <br/> 
 
-<img width="450" alt="Home-2" src="https://user-images.githubusercontent.com/91541289/153575812-87dc9e12-3b52-4aa5-a00f-33646c505ff6.png">
+<img width="450" alt="Screenshot 2022-03-19 013054" src="https://user-images.githubusercontent.com/91541289/159075664-b92fac59-b35a-4efe-9279-65d886515dcc.png">
+
+<br/> 
+
+<img width="450" alt="Screenshot 2022-03-19 013154" src="https://user-images.githubusercontent.com/91541289/159075667-2dc7048d-d17a-438e-9905-3da63680b714.png">
+
 
 <br/>
 
