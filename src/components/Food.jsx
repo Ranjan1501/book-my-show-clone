@@ -8,7 +8,9 @@ export const Food = () => {
   const [food, setFood] = useState([]);
   const getFood = async () => {
     try {
-      let res = await fetch(`http://localhost:3600/foods`);
+      let res = await fetch(
+        `https://shrouded-fortress-53033.herokuapp.com/foods`
+      );
       let result = await res.json();
       console.log(result);
       setFood(result);

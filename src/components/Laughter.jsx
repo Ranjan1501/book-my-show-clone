@@ -14,7 +14,9 @@ export const Laughter = () => {
 
   const getLaughterData = async () => {
     try {
-      const res = await fetch(`http://localhost:3600/laughters`);
+      const res = await fetch(
+        `https://shrouded-fortress-53033.herokuapp.com/laughters`
+      );
       const result = await res.json();
       setData(result);
     } catch (e) {

@@ -9,7 +9,9 @@ export const Movies = () => {
   const [data, setData] = useState([]);
   const getMoviesData = async () => {
     try {
-      const res = await fetch(`http://localhost:3600/movies`);
+      const res = await fetch(
+        `https://shrouded-fortress-53033.herokuapp.com/movies`
+      );
       const result = await res.json();
       setData(result);
     } catch (e) {

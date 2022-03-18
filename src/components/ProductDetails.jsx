@@ -2,8 +2,9 @@ import React, { useEffect, useState } from "react";
 import { useParams, Link } from "react-router-dom";
 import { FaRegUserCircle } from "react-icons/fa";
 import { AiOutlineLike, AiOutlineDislike } from "react-icons/ai";
-import Navbar from "./navbar.components";
+
 import Footer from "./Footer";
+import Navbar from "./navbar.components";
 
 export const ProductDetails = () => {
   const { Id } = useParams();
@@ -12,7 +13,9 @@ export const ProductDetails = () => {
   const [data, setData] = useState({});
   const getMoviesDatabyID = async () => {
     try {
-      let res = await fetch(`http://localhost:3600/movies/${Id}`);
+      let res = await fetch(
+        `https://shrouded-fortress-53033.herokuapp.com/movies/${Id}`
+      );
       let result = await res.json();
       console.log(result);
       setData(result);

@@ -9,7 +9,9 @@ export const Play = () => {
   const [data, setData] = useState([]);
   const getLatestPlay = async () => {
     try {
-      const res = await fetch(`http://localhost:3600/latests`);
+      const res = await fetch(
+        `https://shrouded-fortress-53033.herokuapp.com/latests`
+      );
       const result = await res.json();
       setData(result);
     } catch (e) {

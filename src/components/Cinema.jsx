@@ -13,7 +13,9 @@ export const Cinema = () => {
 
   const getCinemaTime = async () => {
     try {
-      const data = await fetch(` http://localhost:3600/cinemas`);
+      const data = await fetch(
+        `https://shrouded-fortress-53033.herokuapp.com/cinemas`
+      );
       const res = await data.json();
       console.log("response:", res);
       setCinemaTime(res);
