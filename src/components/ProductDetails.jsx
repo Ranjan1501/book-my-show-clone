@@ -35,8 +35,12 @@ export const ProductDetails = () => {
       {/* style={{backgroundImage:`url(${1})`}} */}
       <div>
         <div className="flex border-2 bg-black">
-          <div className=" mx-20  border-4 w-1/6 h-80">
-            <img src={data.cover_image_url} alt="" className="w-full h-full" />
+          <div className=" mx-20  border-4 w-1/6 h-80 align-middle">
+            <img
+              src={data.cover_image_url}
+              alt=""
+              className="w-full h-4/5 mt-8"
+            />
           </div>
           <div className="">
             <p className="text-4xl font-bold mt-10 text-white">
